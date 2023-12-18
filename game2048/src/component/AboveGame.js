@@ -1,0 +1,14 @@
+import React from "react";
+
+export default function AboveGame() {
+    return (
+        <div className="above-game">
+            <p className="game-intro">
+                Join the numbers and get to <strong>2048 title!</strong>
+            </p>
+            <a href="/" className="restart-button">
+                New Game
+            </a>
+        </div>
+    );
+}
